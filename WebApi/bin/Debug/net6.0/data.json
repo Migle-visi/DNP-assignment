@@ -1,0 +1,46 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "hello",
+      "Password": "hello123"
+    },
+    {
+      "Id": 2,
+      "UserName": "mau",
+      "Password": "123456"
+    },
+    {
+      "Id": 3,
+      "UserName": "chloe",
+      "Password": "chloe123"
+    },
+    {
+      "Id": 4,
+      "UserName": "myfriend",
+      "Password": "darkness"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "hello",
+        "Password": "hello123"
+      },
+      "Title": "first post",
+      "Body": "essa"
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 3,
+        "UserName": "chloe",
+        "Password": "chloe123"
+      },
+      "Title": "second post",
+      "Body": "dsdsds"
+    }
+  ]
+}
